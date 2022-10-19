@@ -1,0 +1,65 @@
+/*the first box*/
+
+.hero_main_text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    margin: 10px;;
+}
+
+.secondarytext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.header_logo_text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.blackbox {
+    background-color: #1f2937;
+    padding: auto;
+}
+
+/*the second box*/
+.button_colour{
+    color: #3882f6;
+}
+.white_header_text {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+/*the third box*/
+.quote_section_background {
+    background-color: #e5e7eb;
+}
+.quote_text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
