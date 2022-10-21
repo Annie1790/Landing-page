@@ -97,7 +97,7 @@ body {
     flex-direction: row;
     float: right;
     padding: 0px 100px 0px 0px;
-    gap: 15px;
+    gap: 40px;
 
 }
 
@@ -119,8 +119,8 @@ body {
 }
 
 .pallas_cat_photo {
-    width: 489;
-    height: 325;
+    width: 489px;
+    height: 325px;
     border-radius: 20px;
     display: flex;
 }
