@@ -3,31 +3,38 @@
 * {
     font-family: 'Courier New', Courier, monospace;
 }
+
 .hero_main_text {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
-    margin: 10px;;
+    margin: 10px;
+    ;
 }
-.secondary_text{
+
+.secondary_text {
     font-size: 18px;
     color: #e5e7eb;
 }
+
 .header_logo_text {
     font-size: 24px;
     color: #f9faf8;
-    text-align: center;
+    
 }
+
 .quote-area-text {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
     border: 100px;
 }
+
 .quote-area-quoter {
     float: right;
     margin-right: 30px;
 }
+
 .white_header_text {
     font-size: 36px;
     font-weight: extra-bold;
@@ -40,43 +47,56 @@
 body {
     margin: 0px;
 }
+
 .content-area {
     background: #1f2937;
     display: flex;
     flex-direction: column;
 }
+
 .header-area {
     background: #1f2937;
 }
+
 .awesome-area {
- background: #1f2937;
+    background: #1f2937;
 }
+
 .info-area {
     background: #f9faf8;
-    min-height: 100px;
+    
 }
+
 .quote-area {
     background: #e5e7eb;
-    padding: 40px;
+    
 }
+
 .ad-area {
     background: #f9faf8;
-    min-height: 100px;
+    
 }
+
 .footer-area {
     background: #1f2937;
-    min-height: 100px;
+    
 }
 
 /*box builds*/
-#headerbox{
-    display: flex ;
-    vertical-align: top;
-    flex-direction: row;
-    justify-content:space-evenly;
-    margin: 30px;
-    align-items: center;
+#headerbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center
 }
+#box1 {
+    
+    
+}
+#box2 {
+    margin-left: auto;
+}
+
 #websiteawesome {
     display: flex;
     flex-direction: row;
@@ -91,6 +111,7 @@ body {
     border-radius: 20px;
     display: flex;
 }
+
 .sign_up_button {
     background-color: #3882f6;
     color: #f9faf8;
@@ -113,88 +134,51 @@ div .pictures {
     height: 200px;
     width: 200px;
     border-radius: 10px;
+    object-fit: cover;
 
-    
-    
+
 }
+
 .pictures-row {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: center;
-    
+    flex-wrap: wrap;
 
 }
+
 .description {
     text-align: center;
     padding-bottom: 30px;
 }
+
 .ad-area-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-color: #3882f6;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     border: 30px;
     margin: 80px;
-    margin-left: 50px;
-    margin-right: 50px;
+    border-radius: 10px;
 }
 
+.ad-sign-up-button {
+    height: 15px;
+    width: 90px;
+    background-color: #3882f6;
+    padding: 20px;
+    border: solid 5px #f9faf8;
+    border-radius: 10px;
+    margin: 5px;
+    
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.footer-text {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: center;
+    
+}
