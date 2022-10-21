@@ -18,12 +18,57 @@
     color: #f9faf8;
     text-align: center;
 }
-
-/*box*/
-.blackbox {
-    background-color: #1f2937;
-    outline-color: #1f2937;
+.quote-area-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    border: 100px;
 }
+.quote-area-quoter {
+    float: right;
+    margin-right: 30px;
+}
+.white_header_text {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+}
+
+
+
+/*box colors*/
+body {
+    margin: 0px;
+}
+.content-area {
+    background: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+.header-area {
+    background: #1f2937;
+}
+.awesome-area {
+ background: #1f2937;
+}
+.info-area {
+    background: #f9faf8;
+    min-height: 100px;
+}
+.quote-area {
+    background: #e5e7eb;
+    padding: 40px;
+}
+.ad-area {
+    background: #f9faf8;
+    min-height: 100px;
+}
+.footer-area {
+    background: #1f2937;
+    min-height: 100px;
+}
+
+/*box builds*/
 #headerbox{
     display: flex ;
     vertical-align: top;
@@ -33,28 +78,64 @@
     align-items: center;
     flex: ;
 }
-
 #websiteawesome {
     display: flex;
     flex-direction: row;
     margin-left: 300px;
     margin-right: 300px;
+    padding: 20px;
 }
 
 .pallas_cat_photo {
     width: 489;
     height: 325;
-    border-radius: 60%;
+    border-radius: 20px;
+    display: flex;
 }
 .sign_up_button {
     background-color: #3882f6;
     color: #f9faf8;
-    height: 30px;
-    width: 80px;
+    height: 10px;
+    width: 70px;
     padding: 15px;
     display: inline;
-    border-radius: 10%;
+    border-radius: 10px;
 
+}
+
+.info-area h1 {
+    text-align: center;
+    padding: 40px;
+}
+
+div .pictures {
+    border: 5px solid #3882f6;
+    margin: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+
+    
+    
+}
+.pictures-row {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    
+
+}
+.description {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.ad-area-box {
+    background-color: #3882f6;
+    padding: 30px;
+    border: 30px;
+    margin: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
@@ -94,37 +175,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/*the second box*/
-.button_colour{
-    color: #3882f6;
-}
-.white_header_text {
-    font-size: 36px;
-    font-weight: extra-bold;
-    color: #1f2937;
-}
-
-/*the third box*/
-.quote_section_background {
-    background-color: #e5e7eb;
-}
-.quote_text {
-    font-size: 36px;
-    font-style: italic;
-    color: #1f2937;
-}
 
 
 
